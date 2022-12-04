@@ -1,0 +1,19 @@
+.parent {
+  @apply m-8 mt-0 shadow-xl mx-10;
+}
+
+.button {
+  @apply bg-orange-500 text-white bg-opacity-50 block py-2 w-full
+  transition-colors hover:bg-orange-600;
+}
+
+.input {
+  @apply block w-full bg-white bg-opacity-60 border-r-2 border-transparent focus:border-slate-400 py-3 placeholder:text-slate-600 p-3 ;
+  &:first-child {
+    @apply border-b border-slate-400;
+  }
+}
+
+.title {
+  @apply text-3xl font-bold text-center text-white p-10
+}
